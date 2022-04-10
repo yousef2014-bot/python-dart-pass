@@ -1,0 +1,60 @@
+// dart - Q1
+main() {
+
+	var hour = DateTime.now().hour; // we cant use const with variable
+	print(hour);
+
+}
+
+//Q2 - 1
+abstract class Animal {
+   // Body of abstract class
+    void printName(){
+  }
+   void printSound(){
+  }
+}
+
+//Q2 - 2
+
+class Dog extends Animal{  
+
+}
+
+class Cat extends Animal{  
+
+}
+
+class Cow extends Animal{  
+
+}
+
+//Q2 - 3
+void main(){
+  
+}
+
+
+
+// python 
+
+
+def main():
+	x = eval(input('enter x value :'))
+	list = []
+	if 0<x<=10 :
+	    for i in range(x):
+		n = eval(input())
+		list.append(i)
+
+	for i in list:
+	    if i%2 == 0 :
+		    print(n, 'is even')
+	    else :
+		print(n, 'is odd')
+
+
+
+
+
+
